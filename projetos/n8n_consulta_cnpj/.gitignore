@@ -1,0 +1,20 @@
+# .gitignore
+
+# Arquivos de cache Python (caso use scripts auxiliares)
+__pycache__/
+*.py[cod]
+
+# Pastas do sistema
+.DS_Store
+.env
+*.env
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# N8N config local (se tiver)
+.n8n/
+node_modules/
+.env
+*.log
